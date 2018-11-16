@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using CreditCards.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using CreditCards.Models;
+
 
 namespace CreditCards.Controllers
 {
@@ -18,14 +19,12 @@ namespace CreditCards.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-
             return View();
         }
 
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 

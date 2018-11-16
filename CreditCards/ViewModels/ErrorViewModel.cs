@@ -1,6 +1,6 @@
 using System;
 
-namespace CreditCards.Models
+namespace CreditCards.ViewModels
 {
     public class ErrorViewModel
     {
