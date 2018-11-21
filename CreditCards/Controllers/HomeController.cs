@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CreditCards.Controllers
 {
+    //home
     public class HomeController : Controller
     {
         public IActionResult Index()
